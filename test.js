@@ -35,3 +35,5 @@ test("One dollar should be 159.875 Yen", function(){
     // hago mi comparacion (la prueba)
     expect(fromYenToPound(127.9)).toBe(0.8); //127 yen son 1 euro. 1 euro = 0.8 Libras
 });
+
+// duda respecto al margen de error de los test. 
