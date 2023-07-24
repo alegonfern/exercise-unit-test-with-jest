@@ -17,11 +17,7 @@ const fromYenToPound = function(valueInYen){
     let valueInPound = valueInEuro * 0.8;
     return valueInPound;
 
-
-
-
-
-   // let valueInEuro = valueInYen * 127.9;
+    // let valueInEuro = valueInYen * 127.9;
     //let valueInPound = valueInEuro * 0.8;
     return valueInPound
 

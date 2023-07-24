@@ -33,5 +33,5 @@ test("One dollar should be 159.875 Yen", function(){
     const { fromYenToPound } = require('./app.js')
     
     // hago mi comparacion (la prueba)
-    expect(fromYenToPound(1)).toBe(0.8); //127 yen son 1 euro. 1 euro = 0.8 Libras
+    expect(fromYenToPound(127.9)).toBe(0.8); //127 yen son 1 euro. 1 euro = 0.8 Libras
 });
