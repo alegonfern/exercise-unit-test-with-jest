@@ -27,3 +27,11 @@ test("One dollar should be 159.875 Yen", function(){
     expect(fromDollarToYen(3)).toBe(479.625); //1 Dolar son 159.875Yen, entonces 1 Dolar deberian ser = (1 * 159.875)
 });
 
+// test fromYenToPound
+test("One dollar should be 159.875 Yen", function(){
+    // importo la funcion desde app.js
+    const { fromYenToPound } = require('./app.js')
+    
+    // hago mi comparacion (la prueba)
+    expect(fromYenToPound(1)).toBe(0.8); //1 Yen son 127.9 Euros, 
+});
